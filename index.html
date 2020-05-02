@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="stylesheet" href="lib/css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="shortcut icon" href="#.png">
+    <title>GeyserMC</title>
+</head>
+
+<body>
+    <div class="page1 scrollreveal">
+        <div class="page1-bg">
+            <div class="page1-nav"></div>
+            <div class="page1-cover">
+                <div class="cover-logo">
+                    <div class="logo-png" style=" overflow: hidden;">
+                        <img src="lib/img/logo-only.png" width="256px" height="256px" style="width: 100%; height: auto;">
+                    </div>
+                    <h1 class="logo-title">
+                        GeyserMC
+                    </h1>
+                    <h2 class="logo-subtitle">
+                        Revolutionize Your Minecraft Server
+                    </h2>
+                    <h3 class="logo-text">
+                        Enable clients from Minecraft Bedrock Edition to join your Minecraft Java server.
+                    </h3>
+                </div>
+                <div class="cover-main">
+                    <a href="http://ci.geysermc.org/" class="button download">
+                        <i class="fa fa-download"></i>
+                    </a>
+                    <a href="https://github.com/GeyserMC/Geyser" class="button source">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://discordapp.com/invite/7ZDSKa5" class="button discord">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                    <a href="https://github.com/GeyserMC/Geyser/wiki" class="button install">
+                        <i class="fa fa-cogs"></i>
+                    </a>
+                    <a href="https://patreon.com/GeyserMC" class="button donate">
+                        <i class="fab fa-patreon"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="page1-footer"></div>
+        </div>
+    </div>
+    <div class="page2 scrollreveal">
+        <div class="page2-bg">
+            <div class="page2-cover">
+                <div class="question">
+                    <i class="fa fa-question"></i>
+                </div>
+                <h1 class="logo-title">
+                    What is Geyser?
+                </h1>
+                <h3 class="logo-subtitle">
+                    Geyser is a proxy, bridging the gap between Minecraft: Bedrock Edition and Minecraft: Java Edition
+                    servers. The ultimate goal of this project is to allow Minecraft: Bedrock Edition users to join
+                    Minecraft: Java Edition servers as seamlessly as possible to allow for true cross-platform.
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class="page3 scrollreveal">
+        <div class="page3-bg">
+            <div class="page3-cover">
+                <div class="use">
+                    <i class="fa fa-check"></i>
+                </div>
+                <h1 class="logo-title">
+                    How do I use it?
+                </h1>
+                <h3 class="logo-subtitle">
+                    Geyser can be downloaded from our Jenkins server here and setup installations can be found on our
+                    wiki or in the tutorial video.. Geyser can be used to join any modern Java server and doesn't
+                    require anything extra to be done on their end.
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class="page4 scrollreveal">
+        <div class="page4-bg">
+            <div class="page4-cover">
+                <div class="work">
+                    <i class="fa fa-cog"></i>
+                </div>
+                <h1 class="logo-title">
+                    How does it work?
+                </h1>
+                <h3 class="logo-subtitle">
+                    Geyser is a middleware, which translates all the incoming and outgoing packets. With this being
+                    said, Geyser works as a proxy, meaning you can use it to join any modern Minecraft Java server.
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class="page5 scrollreveal">
+        <div class="page5-bg">
+            <div class="page5-cover">
+                <div class="page5-icon">
+                    <i class="fab fa-github"></i>
+                </div>
+                <div class="page5-text">
+                    <div class="text-title">
+                        Source Code
+                    </div>
+                    <div class="text-subtitle">
+                        Click here to view the source code!
+                    </div>
+                </div>
+            </div>
+            <div class="page5-cover">
+                <div class="page5-icon">
+                    <i class="fab fa-discord"></i>
+                </div>
+                <div class="page5-text">
+                    <div class="text-title">
+                        Discord
+                    </div>
+                    <div class="text-subtitle">
+                        Click here to join our Discord community!
+                    </div>
+                </div>
+            </div>
+            <div class="page5-cover">
+                <div class="page5-icon">
+                    <i class="fa fa-download"></i>
+                </div>
+                <div class="page5-text">
+                    <div class="text-title">
+                        Download
+                    </div>
+                    <div class="text-subtitle">
+                        Click here to download Geyser!
+                    </div>
+                </div>
+            </div>
+            <div class="footer" style="text-align: center; overflow: hidden;">
+                <p>© 2020 GeyserMC</p>
+                <p class="love">Made with <br> ❤️  <br>by Geyser Developer Team & E.S.A Team</p>
+                <br>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    window.sr = ScrollReveal();
+    var config = {
+        scale: 0.85,
+        duration: 2500,
+        reset: true,
+        useDelay: 'onload',
+        interval: 80,
+        origin: 'right'
+    };
+    sr.reveal('.scrollreveal', config);
+</script>
+
+</html>
